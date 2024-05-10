@@ -1,9 +1,3 @@
-
-img{
-    height: 250px;
-    width: 100%;
-
-}
 *{
     padding: 0;
     margin: 0;
@@ -12,86 +6,89 @@ img{
 nav{
     color: azure;
 }
-input{
-    width: 50%;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 15px;
-    border: none;
+.check div{
+   
+        text-align: center;
+        
+        border-radius: 1px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+       
+        cursor:pointer;
+        margin: 5px ;
     
 }
 
-.searchbar {
-    
-    color: #f2f2f2;
-    margin-right: 16px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
+.searchbar input {
+    width: 50%;
     padding: 10px;
-    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    margin: 20px auto;
+    display: block;
 }
 body{
     background: url(himalayas-mountain-range-sunrise-winter-above-clouds-2560x1440-1165.jpg);
-    background-size: 40%;
-    height: 250px;
+    background-size:cover;
+    
     justify-content: center;
     align-items: center;
     margin-top: 15%;
 }
-.one{
-    background-color: aliceblue;
-    display: inline-block;
-    height: 200px;
-    width: 50%;
-    margin-left: 25%;
-    
-}
-.s{ 
-    text-align: center;
-    background-color: aliceblue;
-    cursor: pointer;
-    
-    height:300%;
 
+.check{ 
+    text-align: center;
+     
+       
+           
+        padding: 2px;
+        width: 50%;
+        margin-left: 25%;
+   
+    
     
 }
-select{
-    width: 51%;
-    padding: 10px;
-    
-    
-}
-tr{
-    padding: 10px;
-    background-color: yellowgreen;
-}
+
+
 input{
-    margin: 1px;
+    
+    margin: 10px;
     cursor: pointer;
+    
 }
 nav{
-    background-color: white;
+    
     color: black;
     display: inline-block;
-    width: 50%;
+    width: 100%;
 }
-li,h5,ul{
-    display: inline;
+li,h6,ul{
+    display: inline-block;
+    height: 15px;
+    
+
     
 
 }
+h6{
+    color: gray;
+    display: flex;
+    align-items: end;
+   
+}
 ul{
-    margin-left: 30%;
+    
+    display:flex;
+    justify-content: space-between;
+    
     
 }
 li{
     color: #00e5ffe5;
     cursor: pointer;
-    display: inline-block;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    
 }
 li:hover{
     color: black;
 }
+
